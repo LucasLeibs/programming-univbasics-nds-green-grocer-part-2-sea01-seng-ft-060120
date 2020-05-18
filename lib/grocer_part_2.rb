@@ -1,6 +1,18 @@
 require_relative './part_1_solution.rb'
 
 def apply_coupons(cart, coupons)
+
+ coupons.each do |coupon_hash|
+   item_name = coupon_hash[:item]
+  if cart[:item_name] && cart[:count] >= coupon_hash[:num]
+    
+    
+     
+   
+  
+  
+  
+  
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
